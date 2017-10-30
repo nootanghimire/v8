@@ -108,32 +108,32 @@ namespace internal {
   /* being contiguous and sorted in the same order! */             \
   T(NOT, "!", 0)                                                   \
   T(BIT_NOT, "~", 0)                                               \
-  K(DELETE, "delete", 0)                                           \
+  K(DELETE, "मेट्ने", 0)                                              \
   K(TYPEOF, "typeof", 0)                                           \
-  K(VOID, "void", 0)                                               \
+  K(VOID, "खाली", 0)                                               \
                                                                    \
   /* Keywords (ECMA-262, section 7.5.2, page 13). */               \
-  K(BREAK, "break", 0)                                             \
-  K(CASE, "case", 0)                                               \
-  K(CATCH, "catch", 0)                                             \
-  K(CONTINUE, "continue", 0)                                       \
+  K(BREAK, "रोक्ने", 0)                                               \
+  K(CASE, "case", 0)                                                \
+  K(CATCH, "समात्ने", 0)                                              \
+  K(CONTINUE, "जारी", 0)                                            \
   K(DEBUGGER, "debugger", 0)                                       \
-  K(DEFAULT, "default", 0)                                         \
+  K(DEFAULT, "अरू", 0)                                         \
   /* DELETE */                                                     \
-  K(DO, "do", 0)                                                   \
-  K(ELSE, "else", 0)                                               \
-  K(FINALLY, "finally", 0)                                         \
+  K(DO, "गर्ने", 0)                                                   \
+  K(ELSE, "नत्र", 0)                                               \
+  K(FINALLY, "अन्तिममा", 0)                                         \
   K(FOR, "for", 0)                                                 \
   K(FUNCTION, "function", 0)                                       \
-  K(IF, "if", 0)                                                   \
+  K(IF, "यदि", 0)                                                   \
   /* IN */                                                         \
   /* INSTANCEOF */                                                 \
-  K(NEW, "new", 0)                                                 \
-  K(RETURN, "return", 0)                                           \
+  K(NEW, "नया", 0)                                                 \
+  K(RETURN, "फर्काउने", 0)                                           \
   K(SWITCH, "switch", 0)                                           \
-  K(THIS, "this", 0)                                               \
-  K(THROW, "throw", 0)                                             \
-  K(TRY, "try", 0)                                                 \
+  K(THIS, "यो", 0)                                               \
+  K(THROW, "फाल्ने", 0)                                             \
+  K(TRY, "प्रयास", 0)                                                 \
   /* TYPEOF */                                                     \
   K(VAR, "var", 0)                                                 \
   /* VOID */                                                       \
